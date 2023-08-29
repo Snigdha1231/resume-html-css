@@ -1,8 +1,7 @@
 .top-container {
-    background-image: url(./capproject-2-first-image.png);
+    background-image: url(./images/capproject-2-first-image.png);
     background-repeat: no-repeat;
     background-size: cover;
-   
     padding-top: 120px;
     padding-bottom: 80px;
 }
@@ -31,6 +30,7 @@ h3 {
 }
 p{
     line-height: 2;  
+    font-size: larger;
 }
 
 .address {
@@ -59,7 +59,7 @@ hr {
     display: grid;
     grid-template : 1fr 1fr/0.5fr 1fr; 
     margin: 70px auto 0 auto;
-    width: 60%;
+    width: 50%;
     text-align: left;
 
 }
@@ -101,19 +101,32 @@ hr {
     background-image: url(./images/capproject-2-first-image.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
+   
 }
+ .grid-container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 30%;
+    margin: auto auto 0 auto;
+    padding-top: 80px;
+    
+ }
 .footer-link {
-    color: black;
+    color: rgb(167, 143, 26);
     text-decoration: none;
+    font-size: larger;
+    
 }
 button {
     background-color:rgb(167, 143, 26);
     border-radius:10%;
     border:none;
-    color:aliceblue
+    color:aliceblue;
 }
 
 a:hover {
     color: rgb(167, 143, 26);
+}
+.copywrite {
+    font-size: medium;
 }
